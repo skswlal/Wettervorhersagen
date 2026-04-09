@@ -11,7 +11,7 @@ Product facts
   Steps   : 25 frames × 5 min = 0 … 120 min ahead
   Unit    : mm / 5 min  (rain accumulation per interval)
   Updated : every 5 min; files appear ~2-3 min after nominal time
-  URL     : https://opendata.dwd.de/weather/radar/radolan/rv/
+  URL     : https://opendata.dwd.de/weather/radar/composite/rv/
   Filename: DE1200_RV{YYMMDDHHMM}.tar.bz2
   Inside  : 25 binary files, one per forecast step
 

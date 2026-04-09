@@ -4,13 +4,15 @@
 
 Fetches the latest RV composite from DWD Open Data, parses the full 2-hour, 25-step forecast, and extracts a point-level time series for any latitude/longitude (default: Berlin).
 
+![DWD Product Overview](DWD_Product_Overview.png)
+
 ### Product Facts
 
 - **Grid**: DE1200 — 1200 rows × 1100 cols, 1 km resolution
 - **Steps**: 25 frames × 5 min = 0 … 120 min ahead
 - **Unit**: mm / 5 min (rain accumulation per interval)
 - **Updated**: Every 5 minutes; files appear ~2-3 min after nominal time
-- **Source**: https://opendata.dwd.de/weather/radar/radolan/rv/
+- **Source**: https://opendata.dwd.de/weather/radar/composite/rv/
 - **Filename**: `DE1200_RV{YYMMDDHHMM}.tar.bz2`
 
 ### Installation
