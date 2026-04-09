@@ -2,7 +2,7 @@
 
 ## DWD RADOLAN RV Nowcast — Download & Parse
 
-Fetches the latest RV (Radar-Vorhersage) composite from DWD Open Data, parses the full 2-hour, 25-step forecast, and extracts a point-level time series for any latitude/longitude (default: Berlin).
+Fetches the latest RV composite from DWD Open Data, parses the full 2-hour, 25-step forecast, and extracts a point-level time series for any latitude/longitude (default: Berlin).
 
 ### Product Facts
 
@@ -65,11 +65,3 @@ TARGET_LON = 13.44
 - **numpy** — Array operations
 - **pyproj** — Coordinate transformations (stereographic → WGS-84)
 - **matplotlib** — Optional, for plotting
-
-### License
-
-[Specify license here]
-
-### Author
-
-[Specify author/contact info here]
