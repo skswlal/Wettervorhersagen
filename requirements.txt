@@ -1,0 +1,5 @@
+wradlib>=2.0.0
+requests>=2.28.0
+numpy>=1.21.0
+pyproj>=3.4.0
+matplotlib>=3.5.0
